@@ -5,5 +5,5 @@ h1 h2 h3 h4 h5 h6 div p {
 }
 
 :root {
-    --bs-primary-rgb: 0, 0, 0; 
+    --bs-primary-rgba: 0, 0, 0; 
 }
