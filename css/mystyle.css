@@ -6,13 +6,3 @@ h1,h2,h3,h4,h5,h6,div,p {
     font-optical-sizing:auto;
     font-style:normal;
 }
-
-.bg-primary {
-    --bs-bg-opacity: 1;
-    background-color:rgba(var(--bs-teal), var(--bs-bg-opacity)) !important;
-}
-
-.text-primary {
-    --bs-text-opacity: 1;
-    color: teal(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
-}
