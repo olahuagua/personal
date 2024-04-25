@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,div,p {
     --bodyprimary-rgb: 33, 37, 41 ;
 }
 
-span.text-primary {
-    --bodyprimary-rgb: 33, 37, 41;
+.text-primary {
+    --bs-text-opacity: 1;
+    color: teal(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
-
