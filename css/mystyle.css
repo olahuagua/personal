@@ -10,8 +10,7 @@ h1,h2,h3,h4,h5,h6,div,p {
     --bodyprimary-rgb: 33, 37, 41 ;
 }
 
-.text-primary {
-    --bs-text-opacity: 1;
-    color: rgba(--bs-accordion-border-color: #20c997)!important;
+span.text-primary {
+    --bodyprimary-rgb: 33, 37, 41;
 }
 
