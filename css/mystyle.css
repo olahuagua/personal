@@ -6,8 +6,10 @@ h1,h2,h3,h4,h5,h6,div,p {
     font-optical-sizing:auto;
     font-style:normal;
 }
-:root {
-    --bodyprimary-rgb: 33, 37, 41 ;
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: --bs-teal(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .text-primary {
