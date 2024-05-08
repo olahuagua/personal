@@ -8126,9 +8126,12 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
-.bg-primary {
-  --bs-bg-opacity: 1;
-  background-color:#44b1ea !important;
+.bg-primary{
+    background-color: aqua !important;
+    background-image: url(/assets/img/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-secondary {
